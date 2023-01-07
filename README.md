@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+# Three.js
+# READYPLAYERME
+# [링크](http://3.36.121.243:8000/)
+
+<img width="267" alt="스크린샷 2023-01-07 오후 3 58 48" src="https://user-images.githubusercontent.com/88936783/211135544-9fa02245-7c2c-49d8-a937-4d6be14c823d.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
