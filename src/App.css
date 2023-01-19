@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,24 +16,110 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 10vh;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@font-face {
+  font-family: "galmuri";
+  src: url(./fonts/Galmuri9.ttf);
+}
+
+@font-face {
+  font-family: "galmuri-bold";
+  src: url(./fonts/Galmuri11-Bold.ttf);
+  font-weight: bold;
+}
+
+.Main {
+  width: 100%;
+  height: 300px;
+  display: block;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.ASDF {
+  position: relative;
+  width: 400px;
+  height: 300px;
+
+}
+
+
+.TitleContainer {
+  float: left;
+  margin-left: 15%;
+}
+
+.Title {
+  font-family: "galmuri";
+  font-size: 3rem;
+  text-align: left;
+  color: #894021;
+  position: relative;
+}
+
+.subTitle {
+  font-family: "galmuri";
+  font-size: 2rem;
+  text-align: left;
+  color: #894021;
+  position: relative;
+}
+
+.CanvasBack {
+  float: right;
+  width: 200px;
+  height: 60%;
+  margin-top: -30vh;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
+
+.CanvasContainer {
+  position: relative;
+  width: 20%;
+  height: 200%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.Canvas {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+
+
 }
